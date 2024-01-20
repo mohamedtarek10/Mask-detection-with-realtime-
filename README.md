@@ -29,6 +29,14 @@ Data augmentation techniques are employed to enhance the model's generalization 
 
 ## Training
 
-The model is trained using the training dataset with the Adam optimizer and categorical crossentropy loss. Callbacks such as ModelCheckpoint, ReduceLROnPlateau, and EarlyStopping are used to monitor and improve training performance.
+The model is trained using the training dataset with the Adam optimizer and Binary cross-entropy loss. Callbacks such as ModelCheckpoint, ReduceLROnPlateau, and EarlyStopping are used to monitor and improve training performance.
+
+## Real-time
+
+## Haar Cascade Classifier
+
+The Haar Cascade classifier is employed for real-time face detection. The classifier is pre-trained and included in the OpenCV library.
+
+The system is tested on a video file or cam (replace `video_path` with the path to your video or 0 for Camera) by capturing frames and applying face mask detection in real-time.
 
 

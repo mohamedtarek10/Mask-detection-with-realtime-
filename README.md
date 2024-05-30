@@ -21,7 +21,7 @@ This project implements a face mask detection system using a Convolutional Neura
 
 ## Model Architecture
 
-The CNN model consists of several convolutional layers followed by max-pooling layers. The final layer uses softmax activation to predict the color category.
+The CNN model consists of several convolutional layers followed by max-pooling layers. The final layer uses softmax activation for binary classification.
 
 ## Data Augmentation
 
